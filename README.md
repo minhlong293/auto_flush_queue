@@ -2,7 +2,8 @@ AutoFlushQueue is a thread pool which can do a batch job. It can do an auto flus
 Thread pool size, queue capacity, batch size can be set.
 
 ###### Example (see DemoAutoFlushQueue class):
-`       IQueueWorker<String> worker = qc -> {
+```
+        IQueueWorker<String> worker = qc -> {
             for (String str : qc) {
                 System.out.println(str);
             }
@@ -18,4 +19,4 @@ Thread pool size, queue capacity, batch size can be set.
         .....
             autoFlushQueue.add(string);
         ....
-`
+```
