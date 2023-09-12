@@ -1,5 +1,5 @@
 AutoFlushQueue is a thread pool which can do a batch job. It can do an auto flush if size of job queue is less than batch size after a delay time.
-Thread pool size, queue capacity, batch size can be set.
+Thread pool size, queue capacity, batch size can be config.
 
 ###### Example (see DemoAutoFlushQueue class):
 ```
